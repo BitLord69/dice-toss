@@ -1,6 +1,6 @@
 <template>
   <div class="die-wrapper">
-    <h3>I am die # {{ dieNum }}!</h3>
+    <h3>I am die #{{ dieNum }}!</h3>
     <img
       v-if="rollIt"
       :src="'die-' + dieFace + '.png'"
