@@ -23,8 +23,8 @@
   </div>
 
   <div>
-    <button v-if="rollIt" type="button" @click="setRollIt(false)">Reset</button>
-    <button v-else type="button" @click="setRollIt()">Click to roll</button>
+    <button v-if="rollIt" @click="setRollIt(false)">Reset</button>
+    <button v-else @click="setRollIt()">Click to roll</button>
   </div>
 </template>
 

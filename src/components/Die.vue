@@ -4,7 +4,7 @@
     <img
       v-if="rollIt"
       :src="'die-' + dieFace + '.png'"
-      alt="dice target"
+      alt="dice face"
       class="die-face"
     />
     <img
